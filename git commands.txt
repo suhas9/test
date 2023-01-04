@@ -1,0 +1,28 @@
+To Add respository
+a.git init
+b.git remote add origin "path of git repository"
+c.git add .
+d.git commit -m "first commit"
+e.git push origin master
+
+to remove the repository
+a.rm -fr .git (local repository)
+
+to remove a single file
+A.git rm "file name"
+B.git push origin
+C.git commit -m "message"
+
+TO clone a repository
+A.git clone "repository url"
+
+to create a git branch
+a.git branch BRANCH-NAME
+b.git branch(to check the branch)
+c.git checkout BRANCH-NAME(to switch brach) or git switch BRANCH-NAME
+d.touch suhas.html(to create a file inside git)
+e.git push -u origin BRANCH-NAME(push in github)
+f.git merge BRANCH-NAME(to make avaliable from brach to master branch)
+g.git push -u origin master
+h.git branch -d BRANCH-NAME(to delete the duplicate local )
+i.git push origin --delete BRANCH-NAME(to delete from remote or github)
